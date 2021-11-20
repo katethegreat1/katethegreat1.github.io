@@ -17,7 +17,7 @@
 
       .container {
         width: 100vw;
-        height: 100vh;
+        height: 97vh;
 
         font-weight: bold;
         font-family: 'Balsamiq Sans', cursive;
@@ -28,22 +28,24 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 50px 1fr 1fr 100px;
 
-        gap: 10px;
+        gap: 35px;
 
-        padding: 10px;
+       
         box-sizing: border-box;
 
       }
 
       .container div {
-        padding: 10px;
-        border: 1px solid #000;
+       
+        border: 0.1px solid #000;
       }
 
       .header {
         grid-column-start:1 ;
         grid-column-end: 3;
         font-size: 30px;
+        width: 100vw;
+        margin-top: 3vh;
       }
 
       .content-large {
@@ -63,10 +65,6 @@
         display: flex; 
         justify-content: center;
         justify-content: space-around;
-      }
-
-      li {
-        display: inline;
       }
 
       a {
@@ -94,10 +92,10 @@
     <div class="container">
       <div class="header">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#news">Technical</a></li>
-          <li><a href="#contact">Values</a></li>
-          <li><a href="#about">Leaning Plan</a></li>
+          <a href="#home">Home</a>
+          <a href="#news">Technical</a>
+          <a href="#contact">Values</a>
+          <a href="#about">Leaning Plan</a>
         </ul>
 
       </div>
