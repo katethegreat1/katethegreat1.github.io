@@ -17,45 +17,55 @@
 
       .container {
         width: 100vw;
-        height: 97vh;
 
         font-weight: bold;
         font-family: 'Balsamiq Sans', cursive;
 	      font-size: 20px;
+        background-color: bisque;
 
         display: grid;
 
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 50px 1fr 1fr 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 600px 600px 600px 200px;
 
-        gap: 35px;
-
+        gap: 0px;
        
         box-sizing: border-box;
 
       }
 
       .container div {
-       
-        border: 0.1px solid #000;
+        border: 0px solid #000;
       }
 
       .header {
-        grid-column-start:1 ;
-        grid-column-end: 3;
         font-size: 30px;
-        width: 100vw;
-        margin-top: 3vh;
+        background-color: #505050;
+        padding:15px;
       }
 
-      .content-large {
-        grid-row-start:2;
-        grid-row-end: 4;
+      .content-large1 {
+        background-image:  url("images/kate1.png");
+        padding-top:150px;
+      }
+
+      .content-large2 {
+        background-image:  url("images/kate2.png");
+        padding-top:150px;
+        text-align:center;
+        padding-left:450px;
+
+      }
+
+      .content-large3 {
+        background-image:  url("images/kate3.jpg");
+        padding-top:150px;
       }
 
       .footer {
-        grid-column: 1 / 3;
-        font-size: 35px;
+        font-size: 60px;
+        background-color: #505050;
+        padding-top:60px;
       }
 
       ul {
@@ -71,18 +81,21 @@
         display: inline-block;
         text-align: center;
         text-decoration: none;
+        color:white;
       }
 
       a:hover {
-        background-color: orange
+        background-color: skyblue;
+      }
+    
+      p{
+        padding:30px;
       }
 
-      .box4 {
-	float: left;
-	padding: 0px;
-	font-size: 22px;
-	box-sizing: border-box;
-}
+      h1{
+        padding:30px;
+      }
+
       
     </style>
     
@@ -97,25 +110,32 @@
           <a href="#contact">Values</a>
           <a href="#about">Leaning Plan</a>
         </ul>
-
       </div>
-      <div class="content-large">Content#1</div>
-      <div class="content-small">Content#2</div>
-      <div class="content-small">Content#3</div>
+      <div class="content-large1">
+        <h1><a href="#home">Kate's Technical Blog</a></h1>
+        <h1><a href="https://www.facebook.com/" target="_blank" title="Facebook" style="color:yellow"> <i class="fas fa-hand-point-up"></i> </a></h1>
+      </div>
+
+
+      <div class="content-large2">
+        <h1><a href="#home">Kate's Values Blog</a></h1>
+        <h1><a href="https://www.facebook.com/" target="_blank" title="Facebook" style="color:darkblue"> <i class="fas fa-hand-point-up"></i> </a></h1>
+      </div>
+
+      <div class="content-large3">
+        <h1><a href="#home">Kate's Learning Plan</a></h1>
+        <h1><a href="https://www.facebook.com/" target="_blank" title="Facebook" style="color:yellow"> <i class="fas fa-hand-point-up"></i> </a></h1>
+      </div>
+      
       <div class="footer">
         <ul>
-          <a href="https://www.facebook.com/" target="_blank" title="Facebook"> <i class="fab fa-facebook-square"></i> </a>
-          <a href="https://www.youtube.com/" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
-          <a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
-          <a href="https://www.pinterest.nz/" target="_blank" title="Pinterest"><i class="fab fa-pinterest-square"></i></a>
-          <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+          <a href="https://www.facebook.com/" target="_blank" title="Facebook" style="color:skyblue"> <i class="fab fa-facebook-square"></i> </a>
+          <a href="https://www.youtube.com/" target="_blank" title="Youtube" style="color:skyblue"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/" target="_blank" title="Twitter" style="color:skyblue"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.pinterest.nz/" target="_blank" title="Pinterest" style="color:skyblue"><i class="fab fa-pinterest-square"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" title="Instagram" style="color:skyblue"><i class="fab fa-instagram-square"></i></a>
         </ul>
       </div>
-
-
-
-      </div>
-
     </div>
     
   </body>
