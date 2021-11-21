@@ -14,12 +14,10 @@ body {
 
     display: grid;
 
-    grid-template-columns: 1fr;
-    grid-template-rows: 70px 600px 600px 600px 200px;
+    grid-template-rows: 70px 1fr 1fr 1fr 150px;
 
     gap: 0px;
    
-    box-sizing: border-box;
 
   }
 
@@ -30,13 +28,15 @@ body {
   .header {
     font-size: 30px;
     background-color: #505050;
-    padding:15px;
+    padding-top:15px;
+    width:100vw;
   }
 
   .footer {
     font-size: 60px;
     background-color: #505050;
-    padding-top:60px;
+    padding-top:30px;
+    width:100vw;
   }
 
   ul {
